@@ -22,15 +22,12 @@ body{
     list-style:none;
 }
 .text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-
     letter-spacing: 0.02em;
     color: #434455;
 }
 .title{
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -78,7 +75,6 @@ body{
     background-color:#2E2F42; ;
 }
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -91,6 +87,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #FFFFFF;
 }
 .hero-btn:hover{
@@ -117,6 +114,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: #4D5AE5;
 }
 .work-btn:hover,
