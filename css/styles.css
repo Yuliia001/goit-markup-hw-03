@@ -100,15 +100,13 @@ body{
 .team{
     background: #F4F4FD;
 }
-.team-title{
-    color: #2E2F42;
-}
+
 .team-second-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2E2F42;
 }
 /* --------------------WORK EXAMPLES---------------------- */
 .work-btn {
