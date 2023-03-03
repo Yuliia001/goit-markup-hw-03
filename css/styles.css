@@ -55,18 +55,20 @@ body{
 .nav-link:focus {
     color: #404BBF;
 }
+.header-address{
+    font-style: normal;
+}
 .address-link{
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404BBF;
+    color: #434455;
 }
 .address-link:hover,
 .address-link:focus {
-    color: #2E2F42;
+    color: #404BBF;
 }
 /* ---------------- HERO----------------*/
 .hero {
@@ -98,6 +100,9 @@ body{
 .team{
     background: #F4F4FD;
 }
+.team-title{
+    color: #2E2F42;
+}
 .team-second-title {
     font-weight: 500;
     font-size: 20px;
@@ -108,7 +113,7 @@ body{
 /* --------------------WORK EXAMPLES---------------------- */
 .work-btn {
     background: #F4F4FD;
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
