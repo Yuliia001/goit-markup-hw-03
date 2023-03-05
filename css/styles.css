@@ -138,6 +138,9 @@ body{
 .work-btn:focus{
     background-color: var(--presses-state);
     color: var(--color-white);
+}   
+.work-text{
+    color: var(--text-color);
 }
 /* --------------------FOOTER---------------------- */
 footer{
