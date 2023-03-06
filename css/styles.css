@@ -104,7 +104,7 @@ body{
     color: var(--color-white);
 }
 .hero-btn:hover,
-.hero-btn: :focus{
+.hero-btn:focus{
     background: var(--presses-state);
 }
 /* -------------------FEATURE PROMO--------------- 
