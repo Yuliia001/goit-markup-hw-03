@@ -65,11 +65,14 @@ body{
     color: var(--dark);
 }
 /* --------------HEADER---------------- */
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--accent);
+}
 .container-header{
     display: flex;
-    border-bottom: 1px solid var(--accent);
-    padding-top: 24px ;
-    padding-bottom: 24px;
+    
 }
 .header-nav{
     display: flex;
@@ -88,10 +91,11 @@ body{
     letter-spacing: 0.03em;
     color: var(--logo-brand);
     text-transform: uppercase;
-    margin-right: 76px;  
+    
 }
 .logo-color{
     color: var(--dark);
+    margin-right: 76px;
 }
 
 .nav-link{
@@ -107,8 +111,6 @@ body{
 }
 .header-address{
     font-style: normal;
-    display: flex;
-    align-items: center;
     margin-left: auto;
 }
 .address-list{
@@ -129,14 +131,11 @@ body{
 /* ---------------- HERO----------------*/
 .hero {
     background-color:var(--hero-bgr); ;
-}
-.hero-container{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: column;
     padding-top: 188px;
     padding-bottom: 188px;
+}
+.hero-title{
+    margin: 0 auto;
 }
 .hero-title {
     font-size: 56px;
@@ -148,7 +147,6 @@ body{
 }
 .hero-btn {
     min-width: 169px;
-    height: 56px;
     background: var(--logo-brand);
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
@@ -157,8 +155,9 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--color-white);
+    display: block;
+    margin: 0 auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     padding: 16px 32px;
     margin-top: 48px;
    
@@ -180,7 +179,7 @@ body{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.promo-container{
+.promo{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -188,31 +187,49 @@ body{
     display: flex;
     gap: var(--gap);
 }
+.promo-text{
+    width: 264px;
+}
+.promo-item{
+    flex-basis: calc((100% - 72px) / 4)
+} 
 .promo-second-title{
     margin-bottom: 8px;
 }
+
 /* --------------------WETODO---------------------- */
+.wetodo{
+    padding-bottom: 120px;
+}
 .wetodo-title{
     margin-bottom: 72px;
 }
 .wetodo-list{
     display: flex;
     gap: var(--gap);
+    
+}
+.wetodo-item{
     flex-basis: calc((100% - 48px) / 3);
 }
-.wetodo-container{
-    margin-bottom: 120px;
-}
+
+
 /* --------------------OUR TEAM---------------------- */
 .team{
     background-color: var(--light);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+.team-title{
+    margin-bottom: 72px;
+}
+    
 .team-item{
     background-color: var(--color-white);
+    padding-bottom: 32px;
 }
 .team-text{
     margin-top: 8px;
-    margin-bottom: 32px;
     text-align: center;
 
 }
@@ -225,21 +242,20 @@ body{
     color: var(--dark);
     margin-top: 32px;
 }
-.team-container{
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .team-list{
     display: flex;
     justify-content: center;
     gap: var(--gap);
-    margin-top: 72px;
 }
 .team-item{
     flex-basis: calc((100% - 72px) / 4);
 
 }
 /* --------------------WORK EXAMPLES---------------------- */
+.work{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .work-btn {
     background-color: var(--light);
     font-family: 'Roboto',sans-serif;
@@ -249,7 +265,7 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--logo-brand);
-    border: 1px solid #E7E9FC;
+    border: 1px solid var(--accent);
     border-radius: 4px;
     padding: 12px 24px;
 }
@@ -261,14 +277,11 @@ body{
 .work-text{
     color: var(--text-color);
 }
-.work-container{
-    padding-top: 96px;
-    padding-bottom: 72px;
-}
 .work-list{
     display: flex;
     gap: var(--gap);
     justify-content: center;
+    margin-bottom: 72px;
 }
 .work-example-list{
     display: flex;
@@ -289,26 +302,25 @@ body{
 .work-second-title{
     margin-bottom: 8px;
 }
-.example-container{
-    margin-bottom: 120px;
-}
-
 /* --------------------FOOTER---------------------- */
 footer{
     background-color: var(--modal-overlay);
 }
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .logo-footer{
     color: var(--light);
+
 }
 .footer-text{
     color: var(--accent);
     max-width: 264px;
     margin-top: 16px;
 }
-.footer-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
 
+    
 
 
 
