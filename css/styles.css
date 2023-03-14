@@ -160,7 +160,7 @@ body{
     padding: 16px 32px;
     margin-top: 48px;
     border-radius: 4px;
-    border: transparent;
+    border-color: transparent;
    
 }
 .hero-btn:hover,
@@ -275,7 +275,7 @@ body{
 .work-btn:focus{
     background-color: var(--presses-state);
     color: var(--color-white);
-    border: transparent;
+    border-color: transparent;
 }   
 .work-text{
     color: var(--text-color);
